@@ -29,7 +29,7 @@ while (nImages > 0) {
 	run("Magenta");
 	run("Enhance Contrast", "saturated=0.15");
 	
-	saveAs("Tiff","/Volumes/FlashSSD/210226_Live_SFC_Aegg_BFP_GFP-wGBD_mCh-2XrGBD_Utr647/0_dataAnalysis/Reg/"+newFileName);	
+	saveAs("Tiff","/Volumes/DOM_LS/129DCE_230316_Rho-IT-waves-SFC/processed/t-series/raw_regcrop/"+newFileName);	
 	//save(fullPath) ;
 	close();
 	

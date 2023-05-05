@@ -68,7 +68,7 @@ while (nImages > 0) {
 	if (channels == 1) {
 		selectWindow("C1");
 	} 
-	saveAs("Tiff", path + newFileName);
+	saveAs("Tiff","/Volumes/DOM_FIVE/132DCE_230329_IT-Rho-noGDI-SFC/processed/crop_diff/"+newFileName);
 	close();
 	selectWindow(fileName);	
 	close();

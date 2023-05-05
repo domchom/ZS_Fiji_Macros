@@ -17,7 +17,7 @@ while (nImages > 0) {
 	makeRectangle(99, 24, 261, 481);
 	run("Crop");	
 	
-	saveAs("Tiff","/Volumes/FlashSSD/201231_Live_SFC_Aegg_GFP-rGBD_mCh_Ect2/0_Analysis_Crop2/"+newFileName);	
+	saveAs("Tiff","/Volumes/DOM_LS/221007/20221007_143350_221007xxxDC159xxxDC12xxx16degreesxxxCell2/_projection/"+newFileName);	
 	//save(fullPath) ;
 	close();
 	

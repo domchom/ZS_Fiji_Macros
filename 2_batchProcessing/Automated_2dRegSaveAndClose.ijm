@@ -22,7 +22,7 @@ while (nImages > 0) {
 
 	run("Enhance Contrast", "saturated=0.15");
 	
-	saveAs("Tiff","/Users/bementmbp/Desktop/BementLab/2_Projects/23_DevPaper/Figures/Figure5A/210901_waveSizeAnalysis/2_Reg/"+newFileName);	
+	saveAs("Tiff","/Volumes/DOM_LS/120DCE_230125_Ect2-Mgc-Plk1-SFC/reg/"+newFileName);	
 	//save(fullPath) ;
 	close();
 	

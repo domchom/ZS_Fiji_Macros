@@ -17,7 +17,7 @@ while (nImages > 0) {
 	close();
 	roiManager("Select", 0);
 	run("Crop");
-	saveAs("Tiff","/Volumes/FlashSSD/210212_Live_SFC_Aegg_GFP-wGBD_mCh-Utr_GAP1i_GAP17i/0_analysis/regCrop/"+newFileName);
+	saveAs("Tiff","/Volumes/DOM_LS/127DCE_230302_Ect2-GFP_dtom-rGBD_SFC_LS/LS/20230302_154755_DomDC1112boostedcell006xxx230302better/"+newFileName);
 	close();
 	roiManager("Delete");
 	

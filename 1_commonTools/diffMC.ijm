@@ -8,7 +8,7 @@ getDimensions(width, height, channels, slices, frames) ;
 fileName = getInfo("image.title"); 
 //gets and saves the file name for later
 
-differenceNumber = getNumber("how many frames do you want to subtract?", 10) ; 
+differenceNumber = getNumber("how many frames do you want to subtract?", 8) ; 
 //differenceNumber = 10;
 //asks the user for the number of frames to subtract
 
